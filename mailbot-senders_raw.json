@@ -1,0 +1,62 @@
+[
+  {
+    "id": "990462c4-9e3d-40d0-befb-8474c256665f",
+    "customer_id": "3f0d964c-88b0-4a4c-9870-2e7213788544",
+    "receiver": "service-vem@support.it",
+    "description": ""
+  },
+  {
+    "id": "c58d6185-b1ce-41d4-a4a1-dd463be2197c",
+    "customer_id": "3f0d964c-88b0-4a4c-9870-2e7213788544",
+    "receiver": "info-vem@client.it",
+    "description": ""
+  },
+  {
+    "id": "c58d6185-b1ce-41d4-a4a1-dd463be2197c",
+    "customer_id": "3f0d964c-88b0-4a4c-9870-2e7213788544",
+    "receiver": "alert@vemsuppor t.it",
+    "description": ""
+  },
+  {
+    "id": "c58d6185-b1ce-41d4-a4a1-dd463be2197c",
+    "customer_id": "3f0d964c-88b0-4a4c-9870-2e7213788544",
+    "receiver": "vemsecurity@support.it",
+    "description": ""
+  },
+  {
+    "id": "c58d6185-b1ce-41d4-a4a1-dd463be2197c",
+    "customer_id": "3f0d964c-88b0-4a4c-9870-2e7213788544",
+    "receiver": "Management@vem.com",
+    "description": ""
+  },
+  {
+    "id": "c58d6185-b1ce-41d4-a4a1-dd463be2197c",
+    "customer_id": "3f0d964c-88b0-4a4c-9870-2e7213788544",
+    "receiver": "filiale7@vemsupport.it",
+    "description": ""
+  },
+  {
+    "id": "c58d6185-b1ce-41d4-a4a1-dd463be2197c",
+    "customer_id": "3f0d964c-88b0-4a4c-9870-2e7213788544",
+    "receiver": "rete_vem@desk.it",
+    "description": ""
+  },
+  {
+    "id": "c58d6185-b1ce-41d4-a4a1-dd463be2197c",
+    "customer_id": "3f0d964c-88b0-4a4c-9870-2e7213788544",
+    "receiver": "vemwebstore@vem.it",
+    "description": ""
+  },
+  {
+    "id": "c58d6185-b1ce-41d4-a4a1-dd463be2197c",
+    "customer_id": "3f0d964c-88b0-4a4c-9870-2e7213788544",
+    "receiver": "filiale4@vemsupport.it",
+    "description": ""
+  },
+  {
+    "id": "c58d6185-b1ce-41d4-a4a1-dd463be2197c",
+    "customer_id": "3f0d964c-88b0-4a4c-9870-2e7213788544",
+    "receiver": "externalinfo@infovem.it",
+    "description": ""
+  }
+]

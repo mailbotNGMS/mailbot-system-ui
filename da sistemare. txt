@@ -1,0 +1,36 @@
+------------------------------------------------------
+TECHEDGE_LAVAZZA
+
+Rules for source: schedulazione@lavazza.it 
+ 
+Actions	ID	Enabled	Customer User	Service	CI	Queue	Dynamic Fields	SLA	Procedure	Search Subject	Filter Subject	Search Body	Filter Body	Autoclose	Time	Units	Auto Safe Time	Auto Safe Units	Keywords Start	Keywords Stop	Mail Count	Auto Suspend Time	Auto Suspend Unit
+0		ngms-techedge_lavazza@sorint.it	[teclavazza-040] 1ST::7x24_MT0::Incident::Urgency 3 Medium		[0] Customer Support::CSC	ITSMImpact=3 Category=9	3 Medium (7x24 / 45m / 480m)	WORKSTATION : LAVBOSBPRD01 - http://confluence.sorint.it/x/KW6C	TWS - SHAMACPMWDAYS.SHAMACPM RC*	starts	-	-	0	0	0	0	0			4	0	0
+1		ngms-techedge_lavazza@sorint.it	[teclavazza-040] 1ST::7x24_MT0::Incident::Urgency 1 Critical		[1] Technical Support::TSE-DUM	ITSMImpact=3 Category=9	1 Critical (7x24 / 15m / 60m)	TSE-DUM avvisare immediatamente chi segue Lavazza : eseguire procedura http://confluence.sorint.it/x/0oOS	TWS - ELABORAZIONE SALESBODSBASE10* NON TERMINATA ENTRO LE ORE	starts	-	-	0	0	0	0	0				0	0
+
+
+Rules for source: mydesk.noreply@lavazza.com 
+ 
+Actions	ID	Enabled	Customer User	Service	CI	Queue	Dynamic Fields	SLA	Procedure	Search Subject	Filter Subject	Search Body	Filter Body	Autoclose	Time	Units	Auto Safe Time	Auto Safe Units	Keywords Start	Keywords Stop	Mail Count	Auto Suspend Time	Auto Suspend Unit
+0		ngms-techedge_lavazza@sorint.it	[teclavazza-040] 1ST::7x24_MT0::Incident::Urgency 3 Medium		[0] Customer Support::CSC	ITSMImpact=3 Category=9	3 Medium (7x24 / 45m / 480m)	Max Duration Exceeded http://confluence.sorint.it/x/_ICS	*INC* *has been assigned to your group*	contains	*Max Duration Exceeded*	contains	0	0	0	0	0				0	0
+1		ngms-techedge_lavazza@sorint.it	[teclavazza-040] 1ST::7x24_MT0::Incident::Urgency 3 Medium		[0] Customer Support::CSC	ITSMImpact=3 Category=9	3 Medium (7x24 / 45m / 480m)	http://confluence.sorint.it/x/XGyC	*INC* *has been assigned to your group*	contains	-	-	0	0	0	0	0				0	0
+2		ngms-techedge_lavazza@sorint.it	[teclavazza-040] 1ST::7x24_MT0::Service Request::Urgency 3 Medium		[1] Technical Support::TSE-DUM	ITSMImpact=3 Category=27	3 Medium (7x24 / 720m)	http://confluence.sorint.it/x/F26C	*SCTASK* *has been assigned to your group*	contains	-	-	0	0	0	0	0				0	0
+
+------------------------------------------------------
+
+VEM AZIMUT
+
+Rules for source: Management@vem.com 
+ 
+Actions	ID	Enabled	Customer User	Service	CI	Queue	Dynamic Fields	SLA	Procedure	Search Subject	Filter Subject	Search Body	Filter Body	Autoclose	Time	Units	Auto Safe Time	Auto Safe Units	Keywords Start	Keywords Stop	Mail Count	Auto Suspend Time	Auto Suspend Unit
+0		presidio@vem.com	[vemazimut-010] Spoc::OOH_M00::Incident::Urgency 2 High		[1] Technical Support::TSE-DUM	ITSMImpact=3 Category=8	2 High (OOH / 30m)	*RICORDARSI DI INVIARE MAIL DI PRESA IN CARICO DA PRESIDIO@VEM.COM AI RIFERIMENTI AZIMUT*	*Azimut* BUSINESS CRITICAL Allarme funzionamento servizio rete sFTP BNP*	starts	*IGNORARE GLI ALLARMI NELLA SEGUENTE FASCIA ORARIA*	contains	0	0	0	0	0				0	0
+1		presidio@vem.com	[vemazimut-080] Middleware::7x24_MT0::Incident::Urgency 2 High		[1] Technical Support::TSE-DUM	ITSMImpact=3 Category=8	2 High (7x24 / 30m)	http://confluence.sorint.it/x/iYVw RICORDARSI DI INVIARE MAIL DI PRESA IN CARICO DA PRESIDIO@VEM.COM AI RIFERIMENTI AZIMUT	BUSINESS CRITICAL [ESB]	contains	-	-	0	2	m	0	0				0	0
+2		presidio@vem.com	[vemazimut-080] Middleware::7x24_MT0::Incident::Urgency 4 Low		[1] Technical Support::TSE-DUM	ITSMImpact=3 Category=8	4 Low (7x24 / 60m)	http://confluence.sorint.it/x/iYVw RICORDARSI DI INVIARE MAIL DI PRESA IN CARICO DA PRESIDIO@VEM.COM AI RIFERIMENTI AZIMUT.	[ESB]	contains	-	-	0	2	m	0	0				0	0
+3		presidio@vem.com	[vemazimut-080] Middleware::7x24_MT0::Incident::Urgency 2 High		[1] Technical Support::TSE-DUM	ITSMImpact=3 Category=8	2 High (7x24 / 30m)	http://confluence.sorint.it/x/2Y9w RICORDARSI DI INVIARE MAIL DI PRESA IN CARICO DA PRESIDIO@VEM.COM AI RIFERIMENTI AZIMUT	BUSINESS CRITICAL * Stato cutoff	contains	-	-	0	2	m	0	0				0	0
+4		presidio@vem.com	[vemazimut-080] Middleware::7x24_MT0::Incident::Urgency 4 Low		[1] Technical Support::TSE-DUM	ITSMImpact=3 Category=8	4 Low (7x24 / 60m)	http://confluence.sorint.it/x/2Y9w RICORDARSI DI INVIARE MAIL DI PRESA IN CARICO DA PRESIDIO@VEM.COM AI RIFERIMENTI AZIMUT	Stato cutoff	contains	-	-	0	2	m	0	0				0	0
+5		presidio@vem.com	[vemazimut-080] Middleware::7x24_MT0::Incident::Urgency 2 High		[1] Technical Support::TSE-DUM	ITSMImpact=3 Category=8	2 High (7x24 / 30m)	http://confluence.sorint.it/x/iYVw RICORDARSI DI INVIARE MAIL DI PRESA IN CARICO DA PRESIDIO@VEM.COM AI RIFERIMENTI AZIMUT	BUSINESS CRITICAL	contains	-	-	0	2	m	0	0				0	0
+6		presidio@vem.com	[vemazimut-080] Middleware::7x24_MT0::Incident::Urgency 4 Low		[1] Technical Support::TSE-DUM	ITSMImpact=3 Category=8	4 Low (7x24 / 60m)	http://confluence.sorint.it/x/iYVw RICORDARSI DI INVIARE MAIL DI PRESA IN CARICO DA PRESIDIO@VEM.COM AI RIFERIMENTI AZIMUT	[ESB]	notcontains	-	-	0	2	m	0	0				0	0
+7		presidio@vem.com	[vemazimut-080] Middleware::7x24_MT0::Incident::Urgency 2 High		[N] Dispatcher	ITSMImpact=3 Category=8	2 High (7x24 / 30m)	http://confluence.sorint.it/x/WpJw RICORDARSI DI INVIARE MAIL DI PRESA IN CARICO DA PRESIDIO@VEM.COM AI RIFERIMENTI AZIMUT	BUSINESS CRITICAL Allarme processo perl sul device AZMONSCRIPT	contains	-	-	0	0	0	10	m	BUSINESS CRITICAL	Rientro		0	0
+8		presidio@vem.com	[vemazimut-090] Network::7x24_MTS::Incident::Urgency 2 High		[N] Dispatcher	ITSMImpact=3 Category=8	2 High (7x24 / 30m)	RICORDARSI DI INVIARE MAIL DI PRESA IN CARICO DA PRESIDIO@VEM.COM AI RIFERIMENTI AZIMUT	BUSINESS CRITICAL Allarme caduta Device	contains	-	-	0	0	0	10	m	BUSINESS CRITICAL	Rientro		0	0
+9		presidio@vem.com	[vemazimut-010] Spoc::OOH_M00::Incident::Urgency 2 High		[N] Dispatcher	ITSMImpact=3 Category=8	2 High (OOH / 30m)	RICORDARSI DI INVIARE MAIL DI PRESA IN CARICO DA PRESIDIO@VEM.COM AI RIFERIMENTI AZIMUT	*Azimut* BUSINESS CRITICAL*	starts	-	-	0	0	0	5	m	BUSINESS CRITICAL	Ripristino|Rientro		0	0
+10		presidio@vem.com	[vemazimut-010] Spoc::OOH_M00::Incident::Urgency 2 High		[N] Dispatcher	ITSMImpact=3 Category=8	2 High (OOH / 30m)	RICORDARSI DI INVIARE MAIL DI PRESA IN CARICO DA PRESIDIO@VEM.COM AI RIFERIMENTI AZIMUT	*Azimut* BUSINESS CRITICAL*	starts	SFTP	contains	0	0	0	5	m	BUSINESS CRITICAL	Ripristino|Rientro		0	0
+11		presidio@vem.com	[vemazimut-010] Spoc::OOH_M00::Incident::Urgency 2 High		[N] Dispatcher	ITSMImpact=3 Category=8	2 High (OOH / 30m)	RICORDARSI DI INVIARE MAIL DI PRESA IN CARICO DA PRESIDIO@VEM.COM AI RIFERIMENTI AZIMUT	*Azimut* BUSINESS CRITICAL*	starts	-	-	0	0	0	5	m	BUSINESS CRITICAL	Ripristino|Rientro		0	0

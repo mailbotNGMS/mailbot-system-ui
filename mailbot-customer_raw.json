@@ -1,0 +1,102 @@
+[
+  {
+    "id": "3a60b00d-fac2-4522-9c4f-e6613c2055ba",
+    "name": "ABC-friendship-demo",
+    "prefix": "ABC"
+  },
+  {
+    "id": "a4548bd0-fbc2-4bce-9d25-6d74f98d34e8",
+    "name": "ABC_gear",
+    "prefix": "ABC"
+  },
+  {
+    "id": "d56a040c-0293-4e67-8680-383943ee35c7",
+    "name": "Aquagas_demo_customer",
+    "prefix": "aquagas"
+  },
+  {
+    "id": "2891dc69-1714-49cc-8c28-844150d9f0ea",
+    "name": "Business to load",
+    "prefix": "btl"
+  },
+  {
+    "id": "ea1a024c-eba8-4e3f-af73-fa0a73eeae0b",
+    "name": "Euromarket",
+    "prefix": "euro"
+  },
+  {
+    "id": "5ff10745-24ab-4113-a7c1-a9394a2aac7c",
+    "name": "FINANZA OGGI",
+    "prefix": "finanzaoggi"
+  },
+  {
+    "id": "3f2e7e20-b620-43bd-a348-65d6aa68063c",
+    "name": "MERCATO NAZIONE NUOVA_IMPRESA",
+    "prefix": "mnitalia"
+  },
+  {
+    "id": "8514789e-53a4-4ea8-ba29-db41446019e4",
+    "name": "OvertureDuMonde",
+    "prefix": "odm"
+  },
+  {
+    "id": "a97d29d6-f85a-4201-afe1-ecf9b24f3add",
+    "name": "YPSLON_target",
+    "prefix": "ypt"
+  },
+  {
+    "id": "e4c414da-32ff-46b4-8c6f-3e030381185b",
+    "name": "ZONAred",
+    "prefix": "zonared"
+  },
+  {
+    "id": "f34ff173-edba-44c5-a2d0-60461b8b64c7",
+    "name": "adenostore",
+    "prefix": "adenos"
+  },
+  {
+    "id": "078fe007-e781-4b9a-b315-dceab95883aa",
+    "name": "filimorf",
+    "prefix": "filimorf"
+  },
+  {
+    "id": "5c59faaf-edd2-49b0-998b-68fd26c05a3d",
+    "name": "footwalk",
+    "prefix": "footwalk"
+  },
+  {
+    "id": "abc5a7d6-9659-4130-8301-4253f9458ae5",
+    "name": "iRisto_demo-customer",
+    "prefix": "isristo"
+  },
+  {
+    "id": "3ae6692f-4980-4912-bae7-4528c17c7890",
+    "name": "invest gold demo",
+    "prefix": "goldinvest"
+  },
+  {
+    "id": "2dbc888a-363a-4fb4-a18e-8ba50c9cad50",
+    "name": "investicasa",
+    "prefix": "investy"
+  },
+  {
+    "id": "fb3c7257-fd2e-43e1-a142-a12bb29d6e09",
+    "name": "kat@na",
+    "prefix": "katastore"
+  },
+  {
+    "id": "c54098f1-0146-4670-8afc-c679fb8ad8de",
+    "name": "neUtralplace-_customer",
+    "prefix": "neUtralplace"
+  },
+  {
+    "id": "3f0d964c-88b0-4a4c-9870-2e7213788544",
+    "name": "VEM AZIMUT",
+    "prefix": "vemazimut"
+  },
+  {
+    "id": "36fbd466-4232-4ada-b207-6d91285bbd3d",
+    "name": "zambria",
+    "prefix": "zambria"
+  }
+]

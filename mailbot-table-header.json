@@ -1,0 +1,50 @@
+[
+  {
+    "id": "col-0",
+    "header": "lv"
+  },
+  {
+    "id": "col-1",
+    "header": "customer user"
+  },
+  {
+    "id": "col-2",
+    "header": "email in copy"
+  },
+  {
+    "id": "col-3",
+    "header": "service"
+  },
+  {
+    "id": "col-4",
+    "header": "CI"
+  },
+  {
+    "id": "col-5",
+    "header": "queue"
+  },
+  {
+    "id": "col-6",
+    "header": "dynamic fields"
+  },
+  {
+    "id": "col-7",
+    "header": "SLA"
+  },
+  {
+    "id": "col-8",
+    "header": "procedure"
+  },
+  {
+    "id": "col-9",
+    "header": "search subject"
+  },
+  {
+    "id": "col-10",
+    "header": "filter subject"
+  },
+  {
+    "id": "col-11",
+    "header": "search body"
+  }
+]
